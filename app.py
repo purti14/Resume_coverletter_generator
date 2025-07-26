@@ -5,7 +5,7 @@ from fpdf import FPDF
 import tempfile
 import re
 
-MISTRAL_API_KEY = "JRAshOK8qlk2gu29zI8vin1ohvViR4aM"  # Replace with your Mistral API key
+MISTRAL_API_KEY = "USE YOUR API KEY HERE"  # Replace with your Mistral API key
 
 def generate_with_mistral(prompt):
     url = "https://api.mistral.ai/v1/chat/completions"
