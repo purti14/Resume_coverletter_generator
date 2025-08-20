@@ -6,9 +6,13 @@ Built with Python and Streamlit, powered by the Mistral API, and supports PDF do
 🚀 Features
 
 ✨ AI-generated resume and cover letter from user input
+
 ⚡ Built with Python + Streamlit for quick deployment
+
 🤖 Uses Mistral AI API for smart text generation
+
 📂 Export results as a PDF file
+
 🌐 Easy-to-use web interface
 
 🛠 Tech Stack
