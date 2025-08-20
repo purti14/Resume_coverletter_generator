@@ -1,38 +1,62 @@
-# 🧠 AI Resume & Cover Letter Generator (Mistral API)
+📄 AI Resume & Cover Letter Generator
 
-A simple and interactive Python web application that generates **professional resumes and cover letters** using **Large Language Models (LLMs)** via the **Mistral API**. Built with **Streamlit** for ease of use and **FPDF** for downloadable PDF documents.
+An AI-powered web application that generates professional resumes and cover letters instantly.
+Built with Python and Streamlit, powered by the Mistral API, and supports PDF download.
 
----
+🚀 Features
 
-## 🚀 Features
+✨ AI-generated resume and cover letter from user input
+⚡ Built with Python + Streamlit for quick deployment
+🤖 Uses Mistral AI API for smart text generation
+📂 Export results as a PDF file
+🌐 Easy-to-use web interface
 
-- Generate **Resume** or **Cover Letter** based on:
-  - Name
-  - Email
-  - Skills
-  - Experience
-  - Career Goals
-  - Target Job Role
-- Uses **Mistral LLM** to write personalized professional content
-- PDF download of the generated content
-- Web-based interface (no installation required for users)
+🛠 Tech Stack
 
----
+Python 3
+Streamlit (for hosting the web app)
+Mistral API (AI model for text generation)
+FPDF / ReportLab (to generate PDFs)
 
-## 🛠 Tech Stack
+📂 Project Structure
+├── app.py            # Main Streamlit app
+├── requirements.txt  # Dependencies
+├── utils/            # Helper functions (PDF generation, formatting)
+└── README.md         # Project documentation
 
-| Component      | Technology         |
-|----------------|--------------------|
-| Language       | Python 3.x         |
-| Frontend       | Streamlit          |
-| AI Model       | Mistral API (LLMs) |
-| PDF Generation | FPDF               |
-| Deployment     | Streamlit Cloud *(optional)* |
+⚙️ Installation & Setup
 
----
+Clone the repository
+git clone https://github.com/your-username/ai-resume-coverletter.git
+cd ai-resume-coverletter
 
-## 📦 Installation
+Create a virtual environment & install dependencies
+pip install -r requirements.txt
 
-1. **Clone the Repository**
-git clone https://github.com/your-username/ai-resume-cover-letter.git
-cd ai-resume-cover-letter
+Add your Mistral API Key
+
+Create a .env file and add:
+MISTRAL_API_KEY=your_api_key_here
+
+Run the Streamlit app
+streamlit run app.py
+
+📤 Usage
+
+Open the app in your browser (http://localhost:8501)
+Enter your details (name, skills, experience, job role)
+Click Generate → AI creates a resume and cover letter
+Download as PDF with one click
+
+
+📌 Future Improvements
+
+🎨 Add multiple resume templates & designs
+🌍 Support for multiple languages
+📊 AI-powered resume score/feedback
+☁ Deploy on Streamlit Cloud or HuggingFace Spaces
+
+👩‍💻 Author
+
+Purti Ojha
+Generative AI Project | Resume & Cover Letter Builder
